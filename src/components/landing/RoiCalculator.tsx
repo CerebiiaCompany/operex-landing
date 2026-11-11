@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowRight, CheckCircle2, Clock, TrendingUp } from "lucide-react";
 
 const WHATSAPP_ROI =
-  "https://wa.me/573000000000?text=Hola%2C%20calcul%C3%A9%20el%20ROI%20de%20mi%20planta%20en%20CEREBIIA%20OPERA%20y%20quiero%20agendar%20una%20demo";
+  "https://wa.me/573000000000?text=Hola%2C%20calcul%C3%A9%20el%20ROI%20de%20mi%20planta%20en%20CEREBIIA%20OPEREX%20y%20quiero%20agendar%20una%20demo";
 
 export function RoiCalculator() {
   const [operators, setOperators] = useState(35);

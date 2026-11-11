@@ -175,7 +175,7 @@ export function HeroMockup() {
           <span className="h-2 w-2 rounded-full bg-slate-600" />
           <span className="h-2 w-2 rounded-full bg-brand" />
           <span className="ml-2 font-mono text-xs text-slate-300">
-            opera.cerebiia.com · Control de Planta
+            operex.cerebiia.com · Control de Planta
           </span>
         </div>
         <span className="inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold text-slate-200">

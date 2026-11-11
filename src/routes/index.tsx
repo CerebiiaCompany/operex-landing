@@ -24,7 +24,7 @@ import {
 import { HeroMockup } from "@/components/landing/HeroMockup";
 import { RoiCalculator } from "@/components/landing/RoiCalculator";
 
-const TITLE = "CEREBIIA OPERA · Software de Control de Producción y Planta en Tiempo Real (MES)";
+const TITLE = "CEREBIIA OPEREX · Software de Control de Producción y Planta en Tiempo Real (MES)";
 const DESC =
   "El sistema operativo moderno para fábricas y plantas de producción. Controla órdenes, lotes con QR, mermas, talleres externos (maquila) y liquidación de operarios en tiempo real.";
 
@@ -45,11 +45,11 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_DEMO =
-  "https://wa.me/573000000000?text=Hola%2C%20quiero%20agendar%20una%20Demo%20de%20CEREBIIA%20OPERA";
+  "https://wa.me/573000000000?text=Hola%2C%20quiero%20agendar%20una%20Demo%20de%20CEREBIIA%20OPEREX";
 const WHATSAPP_SPECIALIST =
-  "https://wa.me/573000000000?text=Hola%2C%20quiero%20hablar%20con%20un%20Especialista%20de%20CEREBIIA%20OPERA";
+  "https://wa.me/573000000000?text=Hola%2C%20quiero%20hablar%20con%20un%20Especialista%20de%20CEREBIIA%20OPEREX";
 const WHATSAPP_WHITELABEL =
-  "https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20el%20modelo%20Marca%20Blanca%20%2F%20Servidor%20Dedicado%20de%20CEREBIIA%20OPERA";
+  "https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20el%20modelo%20Marca%20Blanca%20%2F%20Servidor%20Dedicado%20de%20CEREBIIA%20OPEREX";
 
 const btnPrimaryBrand =
   "inline-flex items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-dark hover:-translate-y-0.5";
@@ -158,7 +158,7 @@ function HeroSection() {
             <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
               Deja atrás las planillas de papel, los lotes perdidos en maquila y las horas
               liquidando nómina.{" "}
-              <strong className="font-semibold text-slate-900">CEREBIIA OPERA</strong> conecta
+              <strong className="font-semibold text-slate-900">CEREBIIA OPEREX</strong> conecta
               órdenes de producción, escaneo QR en piso, control de mermas y productividad de
               operarios en tiempo real.
             </p>
@@ -482,8 +482,8 @@ function IndustrySelectorSection() {
           </h2>
           <p className="mt-3 text-base text-slate-600">
             Haz clic en tu sector industrial para ver cómo{" "}
-            <strong className="font-semibold text-slate-900">CEREBIIA OPERA</strong> se adapta a tus
-            procesos, unidades de medida y estaciones de trabajo.
+            <strong className="font-semibold text-slate-900">CEREBIIA OPEREX</strong> se adapta a
+            tus procesos, unidades de medida y estaciones de trabajo.
           </p>
         </div>
 
@@ -931,7 +931,7 @@ function DeploymentModelsSection() {
                 Modalidad 01 · Activación Inmediata
               </span>
               <h3 className="mt-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">
-                CEREBIIA OPERA Cloud (SaaS)
+                CEREBIIA OPEREX Cloud (SaaS)
               </h3>
               <p className="mt-2 text-base text-slate-600">
                 Para plantas y talleres que requieren arrancar de inmediato con cero costos de
@@ -1286,8 +1286,8 @@ function HowItWorksSection() {
             ¿Cómo funciona en el día a día de tu fábrica?
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            No necesitas cambiar tu forma de producir ni comprar equipos costosos. CEREBIIA OPERA se
-            adapta a tu planta en tres pasos simples.
+            No necesitas cambiar tu forma de producir ni comprar equipos costosos. CEREBIIA OPEREX
+            se adapta a tu planta en tres pasos simples.
           </p>
         </div>
 
@@ -1324,7 +1324,7 @@ function FaqSection() {
   const faqs = [
     {
       q: "¿Necesito comprar lectores o equipos especiales para mi planta?",
-      a: "No. CEREBIIA OPERA funciona en cualquier celular, tablet Android/iPad o computador que ya tengas. También es 100% compatible con lectores de código de barras/QR USB o Bluetooth e impresoras térmicas estándar.",
+      a: "No. CEREBIIA OPEREX funciona en cualquier celular, tablet Android/iPad o computador que ya tengas. También es 100% compatible con lectores de código de barras/QR USB o Bluetooth e impresoras térmicas estándar.",
     },
     {
       q: "¿Es fácil de usar para operarios que no manejan computadores?",
@@ -1401,7 +1401,7 @@ function FinalCtaSection() {
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-base text-slate-300">
           Agenda una demostración personalizada de 20 minutos. Te mostramos cómo funcionaría
-          CEREBIIA OPERA con tus propias órdenes y estaciones de trabajo.
+          CEREBIIA OPEREX con tus propias órdenes y estaciones de trabajo.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
@@ -1447,12 +1447,12 @@ function FooterSection() {
               Sistema Integral de Ejecución y Control de Producción para Plantas y Fábricas (MES).
               Una solución del ecosistema{" "}
               <strong className="font-semibold text-slate-700">
-                CEREBIIA (OPERA • DATA • CALIDAD)
+                CEREBIIA (OPEREX • DATA • CALIDAD)
               </strong>
               .
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
-              {["CEREBIIA OPERA", "CEREBIIA DATA", "CEREBIIA CALIDAD"].map((suite, i) => (
+              {["CEREBIIA OPEREX", "CEREBIIA DATA", "CEREBIIA CALIDAD"].map((suite, i) => (
                 <span
                   key={suite}
                   className={`rounded-lg px-2.5 py-1 font-mono text-[11px] font-semibold ${
@@ -1551,7 +1551,7 @@ function FooterSection() {
               </li>
               <li className="flex items-center gap-2 text-xs text-slate-500">
                 <Globe className="h-4 w-4 text-brand" />
-                <span>opera.cerebiia.com</span>
+                <span>operex.cerebiia.com</span>
               </li>
             </ul>
           </div>
@@ -1559,7 +1559,7 @@ function FooterSection() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-2 border-t border-slate-200/80 pt-6 text-xs text-slate-400 sm:flex-row">
           <p>© 2026 CEREBIIA S.A.S. Todos los derechos reservados.</p>
-          <p>opera.cerebiia.com · Ecosistema Industrial CEREBIIA</p>
+          <p>operex.cerebiia.com · Ecosistema Industrial CEREBIIA</p>
         </div>
       </div>
     </footer>
